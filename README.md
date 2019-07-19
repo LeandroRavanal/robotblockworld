@@ -15,11 +15,11 @@ Por ejemplo, si tenemos 5 cajas (y por tanto 5 filas), y la primer instrucción 
 El programa termina cuando se ingresa el comando "quit", y debe mostrar por salida estandar cada fila con los números de las cajas apiladas, y en caso que una fila no tenga cajas, muestra un vacío.
 
 El ejemplo anterior debería mostrar:
-1.  
-2. 2 1
-3. 3
-4. 4
-5. 5
+> 1.  
+> 2. 2 1
+> 3. 3
+> 4. 4
+> 5. 5
 
 Si la caja a mover tiene cajas apiladas, supongamos mover la caja 2 del ejemplo anterior, la caja 1 vuelve a su posición inicial.
 
