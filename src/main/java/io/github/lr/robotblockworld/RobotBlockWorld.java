@@ -19,7 +19,6 @@ public class RobotBlockWorld {
 	
 	private static final String EMPTY = "";
 	
-	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		int count = 0;
 		
@@ -72,6 +71,11 @@ public class RobotBlockWorld {
 		}
 
 		list.stream().forEachOrdered(block -> System.out.println(block.isRoot() ? block.toString() : EMPTY));
+		
+		if (scanner != null) {
+			
+			scanner.close();
+		}
 	}
 	
 }
