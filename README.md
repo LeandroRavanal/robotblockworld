@@ -2,7 +2,7 @@
 
 Una vez tuve una entrevista donde me pidieron hacer un ejercicio en vivo junto a dos ingenieros que iban a evaluar mi desempeño. 
 
-Bueno, los nervios me ganaron y fallé estrepitosamente, pero esto no tiene porque pasarte a vos :)
+Bueno, los nervios me ganaron y fallé estrepitosamente, pero ésto no tiene por qué pasarte a vos :)
 
 Mientras volvía a casa se me ocurrió una forma interesante de resolver el ejercicio, así que me tomé un momento para escribirlo y compartirlo.
 
@@ -10,7 +10,7 @@ Mientras volvía a casa se me ocurrió una forma interesante de resolver el ejer
 
 Dada una cantidad fija de cajas numeradas de 1 a n, cada una en su correspondiente fila, se solicita mediante instrucciones de comando del tipo "move A to B" apilarlas, siendo A y B números de cajas.
 
-Por ejemplo, si tenemos 5 cajas (y por tanto 5 filas), y la primer instrucción es "move 1 to 2", la caja 1 quedaría encima de la caja 2 en la segunda fila.
+Por ejemplo, si tenemos 5 cajas (y por tanto 5 filas), y la primera instrucción es "move 1 to 2", la caja 1 quedaría encima de la caja 2 en la segunda fila.
 
 El programa termina cuando se ingresa el comando "quit", y debe mostrar por salida estandar cada fila con los números de las cajas apiladas, y en caso que una fila no tenga cajas, muestra un vacío.
 
@@ -21,11 +21,11 @@ El ejemplo anterior debería mostrar:
 > 4. 4
 > 5. 5
 
-Si la caja a mover tiene cajas apiladas, supongamos mover la caja 2 del ejemplo anterior, la caja 1 vuelve a su posición inicial.
+Si la caja a mover tiene cajas apiladas encima, supongamos mover la caja 2 a la 5 del ejemplo anterior, la caja 1 vuelve a su posición inicial.
 
 En caso de ingresar un comando no permitido u erróneo se saltea la instrucción.
 
-No se posible mover una caja sobre otra que tiene cajas apiladas.
+No es posible mover una caja sobre otra que tiene cajas apiladas.
 
 No es posible mover una caja sobre otra en su misma fila.
 
@@ -41,7 +41,7 @@ Segundo inicializamos el array con los bloques.
 
 Tercero comenzamos a leer los comandos de movimientos, uno a uno.
 
-Cuarto para cada movimiento, evaluamos si es correcto, y si es correcto lo ejecutamos.
+Cuarto para cada movimiento evaluamos si es correcto, y si así fuera, lo ejecutamos.
 
 Quinto continuamos con los dos puntos anteriores hasta leer el comando de fin.
 
